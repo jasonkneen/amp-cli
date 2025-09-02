@@ -2,8 +2,8 @@ $ErrorActionPreference = 'Stop'
 
 $packageName = 'amp'
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url64 = 'https://packages.ampcode.com/binaries/cli/v0.0.1756772294/amp-windows-x64.exe'
-$checksum64 = '8d5073bd420a423adba809c3832782223fa32e915563b8750cba6b02dcc9134e'
+$url64 = 'https://packages.ampcode.com/binaries/cli/v0.0.1756785955/amp-windows-x64.exe'
+$checksum64 = 'af8bc8acaeac42c4eb73b31247ab637bd4770dcd15177db69e8cd67df7aa69a5'
 
 $packageArgs = @{
   packageName   = $packageName
